@@ -1,0 +1,374 @@
+.story_opening,
+.part_1,
+.tell_part,
+.fight_part_end,
+.part_2,
+.stay_part,
+.bit_part,
+.zombie_part,
+.join_end,
+.help_part,
+.run_part,
+.part_3,
+.the_end,
+.end {
+    display: none;
+}
+.fight_win_1,
+.fight_win_2,
+.fight_win_3 {
+    display: none;
+}
+body {
+    background-image: url("Images/zombie_world.jpg"); 
+}
+.head {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: "copperplate", fantasy;
+    font-style: italic;
+}
+.begining {
+    text-align: center;
+}
+.start { 
+   font-size: 16px;
+   padding: 10px 20px;
+   margin: 10px;
+   background-color: white;
+   color: black;
+   border: none;
+   border-radius: 2px;
+   transition: background-color .3s ease;
+   justify-content: space-around;
+   text-align: center;
+}
+.start:hover {
+    background-color: rgb(192, 192, 192);
+}
+.story_opening {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.buttonopt1 {
+    position: absolute;
+    left: 45%;
+}
+.resume {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    text-align: center;
+}
+.resume:hover {
+    background-color: rgb(192, 192, 192);
+}
+.part_1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.buttonopt2 {
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.tell {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.tell:hover {
+    background-color: rgb(192, 192, 192);
+}
+.fight {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.fight:hover {
+    background-color: rgb(192, 192, 192);
+}
+.tell_part {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.fight_part_end {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.part_2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.buttonopt3 {
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.stay {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.stay:hover {
+    background-color: rgb(192, 192, 192);
+}
+.run {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.run:hover {
+    background-color: rgb(192, 192, 192);
+}
+.stay_part {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.buttonopt4 {
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.proceed {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.proceed:hover {
+    background-color: rgb(192, 192, 192);
+}
+.comburst{
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.comburst:hover {
+    background-color: rgb(192, 192, 192);
+}
+.end {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.bit_part {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.buttonopt5 {
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.wander {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.wander:hover {
+    background-color: rgb(192, 192, 192);
+}
+.comburst_2 {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.comburst_2:hover {
+    background-color: rgb(192, 192, 192);
+}
+.zombie_part {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.butttonopt6 {
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.join {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.join:hover {
+    background-color: rgb(192, 192, 192);
+}
+.help {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.help:hover {
+    background-color: rgb(192, 192, 192);
+}
+.join_end {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.help_part {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.run_part {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}.part_3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
+.buttonopt7 {
+    position: absolute;
+    left: 45%;
+}
+.fight_win_1 {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.fight_win_1:hover {
+    background-color: rgb(192, 192, 192);
+}
+.buttonopt8 {
+    position: absolute;
+    left: 45%;
+}
+.fight_win_2 {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.fight_win_2:hover {
+    background-color: rgb(192, 192, 192);
+}
+.buttonopt9 {
+    position: absolute;
+    left: 45%;
+}
+.fight_win_3 {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease;
+    right: 60%;
+}
+.fight_win_3:hover {
+    background-color: rgb(192, 192, 192);
+}
+.the_end {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "courier new", 'Courier New', Courier, monospace;
+}
